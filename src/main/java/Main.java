@@ -125,7 +125,7 @@ public class Main {
 
 	public static void generateReport() throws FileNotFoundException {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
-		PrintWriter pw = new PrintWriter(new File("C:/Users/G0055135/Desktop/my things/mega/relatorio_" + sdf.format(new Date()) + ".txt"));
+		PrintWriter pw = new PrintWriter(new File("C:/Users/jeffo/Desktop/my things/mega/relatorio_" + sdf.format(new Date()) + ".txt"));
 		pw.write(sbReport.toString());
 		pw.close();
 		System.out.println("done!");
